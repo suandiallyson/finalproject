@@ -1,0 +1,237 @@
+footer {
+    color: black;
+    text-align: center;
+    background-color: #D9D9D9;
+    font-size: 16px;
+}
+
+.skip {
+    color: black;
+    font-family: 'Public Sans';
+    font-size: 16px;
+}
+
+.skip a {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-family: 'Public Sans';
+    top: -40px;
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: top 1s ease-out;
+    transition: top1s ease-out;
+}
+
+.skip a:focus {
+    top: 30px;
+    position: absolute;
+}
+
+nav a:hover, nav a:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.bar_link {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+nav li {
+    display: inline;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+}
+
+nav {
+    background-color: #BCB8B1;
+    text-align: right;
+}
+
+#logo {
+    position: relative;
+    text-align: left;
+    width: 45px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family:'Public Sans';
+    margin-top: 100px;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.me {
+    padding: 50px;
+    font-family:'Public Sans';
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact_info {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.contact {
+    background-size: contain;
+    padding: 50px;
+    background-color: white;
+    width: 80%;
+    border-radius: 25px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#tukuStyling {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.UX_desc {
+    padding: 50px;
+    font-family:'Public Sans';
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.CS_desc {
+    padding: 50px;
+    font-family:'Public Sans';
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.flex_registration {
+    display: flex;
+    background-color: #BCB8B1;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.flex_selling {
+    display: flex;
+    background-color: #BCB8B1;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.flex_purchases, .flex_cart, .flex_upload1, .flex_upload2 {
+    display: flex;
+    background-color: #BCB8B1;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.flex_home, .flex_browse, .flex_product1, .flex_product2{
+    display: flex;
+    background-color: #BCB8B1;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #BCB8B1;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.CS_projects {
+    background-color: #F5F1ED;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+body {
+    background-color: #F5F1ED;
+    font-family:'Public Sans';
+}
+
+@media (min-width: 600px) {
+    .projects {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #BCB8B1;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 20px;
+    }
+
+    .CS_projects {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #F5F1ED;
+        column-gap: 50px;
+        row-gap: 50px;
+        padding: 50px;
+        align-items: center;
+    }
+}
+
+@media(min-width: 900px) {
+    .flex_registration {
+        flex-direction: row;
+    }
+    
+    .flex_selling {
+        flex-direction: row;
+    }
+    
+    .flex_purchases, .flex_cart, .flex_upload1, .flex_upload2 {
+        flex-direction: row;
+    }
+
+    .flex_home, .flex_browse, .flex_product1, .flex_product2{
+        flex-direction: row;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #BCB8B1;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 20px;
+    }
+
+    .CS_projects {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #F5F1ED;
+        column-gap: 50px;
+        row-gap: 50px;
+        padding: 50px;
+        align-items: center;
+    }
+}
