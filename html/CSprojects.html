@@ -2,44 +2,65 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Public Sans' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Allyson Suandi</title>
     </head>
     <body>
-        <a class = "skip" href="#skip">Jump to Main Content</a>
+        <div class = "skip"> <a href="#main"> Jump to Main Content </a></div>
         <header>
             <nav>
-                <a href="index.html">About</a>
-                <a href="UXportfolio.html">UX Portfolio</a>
-                <a href="CSprojects.html">Projects</a>
-                <a href="resume.html">Resume</a>
+                <!-- <img src="../images/logo.png" alt="logo" id = "logo"> -->
+                <ul class="top_bar">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="UXportfolio.html">UX Portfolio</a></li>
+                    <li class ="bar_link"><a href="CSprojects.html">Projects</a></li>
+                </ul>
             </nav>
         </header>
-        <main class="UXportfolio" id="skip">
+        <main class="CSProjects" id="main">
             <h1>CS Projects</h1>
-            <p>Here are a compilation of different Computer Science related projects that I have worked on.
+            <p class="CS_desc">Here are a compilation of different Computer Science related projects that I have worked on.
             </p>
-            <div class="Tuku">
-                <img id="ohh1" src="../images/ohh1.jpg" alt="ohh1" />
-                <p>A C++ program that is a recreation of the game ohh1.</p>
-                <img id="piazza" src="../images/piazza.jpg" alt="piazza" />
-                <p>A C++ program that uses machine learning and trains a dataset to categorize each post into subjects based on their content.</p>
-                <img id="officeHours" src="../images/officeHours.jpg" alt="officeHours" />
-                <p>A C++ program that mimics an office hour queue.</p>
-                <img id="sql" src="../images/sql.jpg" alt="sql" />
-                <p>A C++ program that recreates an sql database.</p>
-                <img id="euchre" src="../images/euchre.jpg" alt="euchre" />
-                <p>A C++ program that recreates the card game Euchre.</p>
-                <img id="treasure" src="../images/treasure.jpg" alt="treasure" />
-                <p>A C++ game that uses priority queues to find a treasure map.</p>
-                <img id="dataSimulator" src="../images/dataSimulator.jpg" alt="dataSimulator" />
-                <p>A C program of an assembly language simulator.</p>
-                <img id="pipeline" src="../images/pipeline.jpg" alt="pipeline" />
-                <p>A C program of an recreation of a data pipeline.</p>
-                <img id="cache" src="../images/cache.jpg" alt="cache" />
-                <p>A C program of a recreation of a cache.</p>
+            <div class="CS_projects">
+                <div>
+                    <img id="ohh1" src="../images/ohh1.jpg" alt="ohh1" />
+                    <p>A C++ program that is a recreation of the game ohh1.</p>
+                </div>
+                <div>
+                    <img id="piazza" src="../images/piazza.jpg" alt="piazza" />
+                    <p>A C++ program that uses machine learning and trains a dataset to categorize each post into subjects based on their content.</p>
+                </div>
+                <div>
+                    <img id="officeHours" src="../images/officeHours.jpg" alt="officeHours" />
+                    <p>A C++ program that mimics an office hour queue.</p>
+                </div>
+                <div>
+                    <img id="sql" src="../images/sql.jpg" alt="sql" />
+                    <p>A C++ program that recreates an sql database.</p>
+                </div>
+                <div>
+                    <img id="euchre" src="../images/euchre.jpg" alt="euchre" />
+                    <p>A C++ program that recreates the card game Euchre.</p>
+                </div>
+                <div>
+                    <img id="treasure" src="../images/treasure.jpg" alt="treasure" />
+                    <p>A C++ game that uses priority queues to find a treasure map.</p>
+                </div>
+                <div>
+                    <img id="dataSimulator" src="../images/dataSimulator.jpg" alt="dataSimulator" />
+                    <p>A C program of an assembly language simulator.</p>
+                </div>
+                <div>
+                    <img id="pipeline" src="../images/pipeline.jpg" alt="pipeline" />
+                    <p>A C program of an recreation of a data pipeline.</p>
+                </div>
+                <div>
+                    <img id="cache" src="../images/cache.jpg" alt="cache" />
+                    <p>A C program of a recreation of a cache.</p>
+                </div>
             </div>
         </main>
         <footer>
