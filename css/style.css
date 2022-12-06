@@ -163,6 +163,22 @@ h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
+.contact_form {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #BCB8B1;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #F5F1ED;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .CS_projects {
     background-color: #F5F1ED;
     display: grid;
